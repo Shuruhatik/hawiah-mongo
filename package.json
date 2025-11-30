@@ -1,6 +1,6 @@
 {
   "name": "@hawiah/mongo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MongoDB driver for Hawiah - lightweight and fast MongoDB integration with unified IDriver interface",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
