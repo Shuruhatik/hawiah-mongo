@@ -1,0 +1,45 @@
+{
+  "name": "@hawiah/mongo",
+  "version": "0.1.0",
+  "description": "MongoDB driver for Hawiah - lightweight and fast MongoDB integration with unified IDriver interface",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node test/example.js"
+  },
+  "keywords": [
+    "mongodb",
+    "mongo",
+    "database",
+    "driver",
+    "hawiah",
+    "schema-less",
+    "nosql",
+    "lightweight"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuruhatik/hawiah-mongo.git"
+  },
+  "homepage": "https://github.com/Shuruhatik/hawiah-mongo#readme",
+  "bugs": {
+    "url": "https://github.com/Shuruhatik/hawiah-mongo/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "mongodb": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
